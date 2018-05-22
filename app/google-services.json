@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "277245465395",
+    "firebase_url": "https://college-database-app.firebaseio.com",
+    "project_id": "college-database-app",
+    "storage_bucket": "college-database-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277245465395:android:c43155e387fc578f",
+        "android_client_info": {
+          "package_name": "com.btechviral.android.collegedatabaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277245465395-dlgp2pf0o508v65qoqavpeh6k22c535c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.btechviral.android.collegedatabaseapp",
+            "certificate_hash": "b1c9ef2a6e4eb900353a289dcf8b19e98907f1da"
+          }
+        },
+        {
+          "client_id": "277245465395-8mbm16a261vgjemj9qsueblb9cgl8hkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfpumNvcE7qTe8AYn5wbrfdrMt3XYI_zU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277245465395-8mbm16a261vgjemj9qsueblb9cgl8hkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

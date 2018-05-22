@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity"
+    tools:showIn="@layout/activity_video_download">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="70dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="6dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="387dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            style="?android:attr/progressBarStyleHorizontal"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/dowloadButton"
+        android:layout_marginEnd="30dp"
+        android:text="Upload"
+        android:onClick="Upload"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="434dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/dowloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/recordButton"
+        android:layout_marginStart="143dp"
+        android:text="Download"
+        android:onClick="download"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="434dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="143dp" />
+
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="103dp"
+        android:layout_marginStart="28dp"
+        android:text="Record"
+        android:onClick="record"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="434dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp" />
+
+
+</RelativeLayout>

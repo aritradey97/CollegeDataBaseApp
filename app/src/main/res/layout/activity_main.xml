@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/projectButton"
+        android:layout_width="130dp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/quizButton"
+        android:layout_marginTop="185dp"
+        android:text="Projects"
+        android:layout_alignLeft="@+id/quizButton" />
+
+    <Button
+        android:id="@+id/videoblogbutton"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/projectButton"
+        android:layout_marginStart="23dp"
+        android:text="Video Blog"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp" />
+
+    <Button
+        android:id="@+id/chatbutton"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_alignStart="@+id/videoblogbutton"
+        android:layout_alignTop="@+id/quizButton"
+        android:text="Discussions"
+        android:layout_alignLeft="@+id/videoblogbutton" />
+
+    <Button
+        android:id="@+id/documentsButton"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/videoblogbutton"
+        android:layout_marginBottom="135dp"
+        android:text="Documents"
+        android:layout_alignLeft="@+id/videoblogbutton" />
+
+    <Button
+        android:id="@+id/assignmentButton"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_alignStart="@+id/projectButton"
+        android:layout_alignTop="@+id/documentsButton"
+        android:text="Assignments"
+        android:layout_alignLeft="@+id/projectButton" />
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="24dp"
+        android:text="Quiz"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
+
+</RelativeLayout>

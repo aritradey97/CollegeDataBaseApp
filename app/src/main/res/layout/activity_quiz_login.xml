@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizLoginActivity">
+
+    <EditText
+        android:id="@+id/keyText"
+        android:layout_width="238dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Enter key provided by admin"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
